@@ -413,7 +413,7 @@ namespace WorldISCorrupted.GameLogic.Screens.Game
                     }
                     catch (IndexOutOfRangeException)
                     {
-                        System.Console.WriteLine("Invalid data in Metadata");
+                        Console.WriteLine("Invalid data in Metadata");
                     }
 
                 }

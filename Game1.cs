@@ -97,7 +97,7 @@ namespace WorldISCorrupted
 
             GameInput.Initialize();
 
-            //Fonts.LoadFont();
+            Fonts.LoadFontsDescriptors();
 
             base.Initialize();
         }
@@ -157,12 +157,6 @@ namespace WorldISCorrupted
 
             // Draw GameInput HUD
             GameInput.Draw(spriteBatch);
-
-            spriteBatch.Begin();
-
-            Fonts.RenderTest(spriteBatch);
-
-            spriteBatch.End();
 
             // FPS Counter
             _total_frames++;

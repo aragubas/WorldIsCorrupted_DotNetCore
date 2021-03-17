@@ -490,8 +490,8 @@ namespace WorldISCorrupted.GameLogic.GameObjects
 
             // Render Health Text
             string InfosText = "Health: " + Health;
-            spriteBatch.DrawString(Game1.Reference.Content.Load<SpriteFont>("default"), InfosText, new Vector2(75, 6), Color.Black);
-            spriteBatch.DrawString(Game1.Reference.Content.Load<SpriteFont>("default"), InfosText, new Vector2(74, 5), Color.White);
+            spriteBatch.DrawString(Fonts.GetFont("/PressStart2P.ttf", 13), InfosText, new Vector2(75, 6), Color.Black);
+            spriteBatch.DrawString(Fonts.GetFont("/PressStart2P.ttf", 13), InfosText, new Vector2(74, 5), Color.White);
 
         }
 

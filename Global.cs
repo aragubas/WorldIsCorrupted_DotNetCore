@@ -60,6 +60,7 @@ namespace WorldISCorrupted
         public static string System_Folder = ContentFolder + "system\\";
         public static string SystemLog_Folder = System_Folder + "logs";
 
+
         // Version Match
         public static string MatchVersion_CurrentVersionString = "WIC_2021_FEV_2021";
 
